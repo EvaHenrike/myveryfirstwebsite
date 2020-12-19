@@ -1,0 +1,485 @@
+/**********colors***************/
+
+/**** colors:  #f4f4f2; #e8e8e8; #bbbfca; #495464;*/
+
+body {
+  font-family: "Merriweather", caption;
+  color: #495464;
+  margin: 0;
+  background-color: #f4f4f2;
+}
+
+p {
+  margin-block-start: 0;
+}
+
+h1 {
+  font-family: "Just Another Hand", cursive;
+  font-size: 7rem;
+}
+
+h2 {
+  font-family: "Montserrat", caption;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat", caption;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Montserrat", caption;
+}
+
+h5 {
+  color: #aaaaaa;
+
+  font-family: "Montserrat", caption;
+}
+
+ul {
+  list-style: none;
+  letter-spacing: normal;
+}
+
+li {
+  height: auto;
+  font-family: "Montserrat", caption;
+}
+
+p {
+  font-family: "Montserrat", caption;
+}
+
+hr {
+  border: dotted 6px;
+  color: #bbbfca;
+  border-bottom: none;
+  text-align: center;
+  width: 7%;
+  margin: 50px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f2;
+  font-family: "Montserrat", caption;
+}
+
+a:active {
+  color: #bbbfca;
+}
+
+/******************Class Selection*****************************/
+
+.first {
+  text-decoration: underline;
+}
+
+.big {
+  size: 4px;
+  color: #495464;
+  border: none;
+}
+.top-container {
+  padding-top: 100px;
+  margin: 50 px auto;
+}
+.intro {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.introimg {
+  height: 17rem;
+}
+
+.introtext {
+  text-align: center;
+  margin: 0rem auto 3rem auto;
+}
+
+.introtextI {
+  text-align: left;
+  margin-left: 2rem;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.introp {
+  margin-block-end: 0;
+}
+
+.cvp {
+  margin-block-end: 0;
+  hyphens: auto;
+}
+.introtextII {
+  text-align: right;
+}
+
+.contactbox {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.contactboxform {
+  text-align: left;
+  margin-left: 20%;
+}
+
+.label {
+  margin-bottom: 0px;
+  margin-top: 1rem;
+}
+.middle1 {
+  display: flex;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  text-align: center;
+}
+
+.middle3 {
+  margin: auto;
+  line-height: 2;
+  text-align: center;
+  width: 50%;
+}
+
+.middle1img {
+  padding-top: 3.5%;
+  height: 14rem;
+}
+.middle1img:hover {
+  background-color: #bbbfca;
+  border-radius: 180% 80%;
+}
+
+.middle21img {
+  padding-top: 3.5%;
+  padding-bottom: 2rem;
+  height: 14rem;
+}
+
+.middle21img:hover {
+  background-color: #bbbfca;
+  border-radius: 180% 80%;
+}
+
+.html {
+  text-decoration: none;
+  color: #f4f4f2;
+}
+.html:active {
+  color: #bbbfca;
+}
+
+.htmlmiddle {
+  padding-top: 4%;
+}
+
+.htmlmiddle1 {
+  float: right;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.middle1text {
+  text-align: left;
+  margin-right: 2rem;
+  padding-top: 2, 5%;
+  padding-bottom: 10%;
+}
+
+.cvtext {
+  text-align: left;
+  margin-right: 2rem;
+  padding-top: 2, 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.middle21 {
+  text-align: left;
+  margin-left: 2rem;
+  padding-top: 2, 5%;
+  padding-bottom: 10%;
+}
+
+.middle22 {
+  text-align: right;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding-top: 2, 5%;
+  padding-bottom: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.middle2text {
+  text-align: left;
+  margin-left: 2rem;
+
+  padding-top: 2, 5%;
+  padding-bottom: 10%;
+}
+.middle1heading {
+  margin-top: 5%;
+}
+
+.middle2heading {
+  margin-left: 2rem;
+  margin-top: 5%;
+}
+.heading {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #495464;
+  padding: none;
+}
+
+.middle-container {
+  text-align: center;
+}
+
+.middle-top {
+  text-align: center;
+}
+
+.middle-top-text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 50%;
+  text-align: center;
+  line-height: 2;
+}
+
+.lastbox {
+  height: 10%;
+}
+
+.bottom-container {
+  background-color: #bbbfca;
+  padding: 40px 0 15px;
+  height: 70;
+  text-align: center;
+}
+
+.copyright {
+  color: #f4f4f2;
+  font-size: 0.75rem;
+  padding: 15px 0;
+}
+
+.Letter {
+  position: absolute;
+  right: 50;
+  height: 200;
+}
+
+.Letter1 {
+  position: relative;
+}
+
+.table1 {
+  text-align: center;
+  margin: auto;
+}
+
+.table {
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 5px 1rem;
+  border: solid 0.1rem;
+  border-color: #bbbfca;
+  font-family: "Montserrat", caption;
+  font-size: 0.75rem;
+}
+
+.tablehead {
+  text-align: left;
+  font-style: bold;
+  border-collapse: collapse;
+  border-spacing: 0.5rem;
+  border: solid 0.1rem;
+  border-color: #bbbfca;
+  font-family: "Montserrat", caption;
+  margin: auto;
+}
+
+.menu {
+  position: fixed;
+  background-attachment: fixed;
+  height: 40;
+  width: 100%;
+  background-color: #495464;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.menu1 {
+  font-size: 1.75rem;
+  color: #f4f4f2;
+  margin-top: 0.5rem;
+  margin-left: 8rem;
+  font-family: "Just Another Hand", cursive;
+}
+
+.skip:focus {
+  top: 0;
+}
+
+.skip {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  margin-left: 0.5rem;
+  font-family: "Montserrat", caption;
+  text-align: center;
+}
+
+.menubox1 {
+  margin-left: auto;
+  padding-top: 0.25;
+}
+.home {
+  font-size: 1rem;
+  margin: 10 5 0.5 5;
+  text-decoration: underline 5px;
+  font-family: "Montserrat", caption;
+  text-align: center;
+}
+.menubox2 {
+  padding-top: 0.25;
+}
+
+.menubox3 {
+  font-size: 1rem;
+  margin-right: 40px;
+}
+/*********************Class CV***********************/
+
+.cv {
+  background-image: img src= "Image/1st.jpg";
+}
+
+/********************Class Section work*********************/
+
+.box1 {
+  width: 50%;
+  margin: auto;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.left {
+  width: 50%;
+  margin: 2px auto 25px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.right {
+  width: 50%;
+  margin: 2px auto 25px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.leftI {
+  width: 50%;
+  margin: 25px auto 50px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.ul1 {
+  text-align: center;
+  margin: auto;
+  width: auto;
+  margin-left: 25%;
+  padding-bottom: 2rem;
+}
+
+.ulstyle {
+  text-align: left;
+  width: auto;
+  margin: auto;
+}
+
+.rightI {
+  width: 50%;
+  margin: 25px auto 50px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.boximg {
+  width: 14rem;
+  margin: auto;
+}
+
+.boximg:hover {
+  background-color: #bbbfca;
+  border-radius: 180% 80%;
+}
+
+.figure {
+  font-family: "Montserrat", caption;
+}
+
+.button {
+  background: #e8e8e8;
+  background-image: -webkit-linear-gradient(top, #e8e8e8, #f4f4f2);
+  background-image: -moz-linear-gradient(top, #e8e8e8, #f4f4f2);
+  background-image: -ms-linear-gradient(top, #e8e8e8, #f4f4f2);
+  background-image: -o-linear-gradient(top, #e8e8e8, #f4f4f2);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #495464;
+  font-family: "Montserrat", caption;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 0.25rem;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #495465 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  border: solid #bbbfca 1px;
+  background: #bbbfca;
+  background-image: -webkit-linear-gradient(top, #bbbfca, #bbbfca);
+  background-image: -moz-linear-gradient(top, #bbbfca, #bbbfca);
+  background-image: -ms-linear-gradient(top, #bbbfca, #bbbfca);
+  background-image: -o-linear-gradient(top, #bbbfca, #bbbfca);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/******************ID Selection*****************/
+
+#XXX {
+  color: white;
+}
+#maincontent {
+}
